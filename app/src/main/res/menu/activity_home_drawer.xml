@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/see_all_workshops"
+            android:title="Workshop Schedule"
+            android:icon="@drawable/ic_menu_camera"
+            />
+        <item
+            android:id="@+id/drop_in_schedule"
+            android:title="Drop-In Schedules"
+            android:icon="@drawable/ic_menu_camera"
+            />
+        <item android:id="@+id/worksheets"
+            android:title="Download Worksheets"
+            android:icon="@drawable/ic_menu_camera"
+            />
+        <item
+            android:id="@+id/apply_for_job"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Apply for a Job" />
+        <item
+            android:id="@+id/where_were_at"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Where We're At" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About Us" />
+        <item
+            android:id="@+id/call_us"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Call Us"
+            />
+        <item
+            android:id="@+id/email_us"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Email Us"
+            />
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sign Out" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
